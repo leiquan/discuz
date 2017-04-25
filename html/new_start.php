@@ -14,7 +14,7 @@ $discuz->init();//必须的，你懂的
 <!DOCTYPE html>
 <html>
 <head>
-  <meta charset="utf-8">
+  <meta charset="gb2312">
 
   <title>雷全的个人网站</title>
   <meta name="keywords" content="雷全,雷全的个人网站,雷全的个人主页,雷全的博客,leiquan,leiquan.me,leiquan.website">

@@ -77,17 +77,17 @@ $discuz->init();//必须的，你懂的
 
       <div class="item">
         <a class="button" href='http://leiquan.me/forum.php?mod=forumdisplay&fid=2'>新手报道</a>
-        <div class="txt">快去跟大家打个招呼吧</div>
+        <div class="txt">跟大家打个招呼得3分</div>
       </div>
 
       <div class="item">
         <a class="button" href='https://www.takethegre.com/cn/gateway/scoreselect/'>GRE在线报名</a>
-        <div class="txt">立刻进行GRE报名</div>
+        <div class="txt">立刻进行GRE报名得2分</div>
       </div>
 
       <div class="item">
         <a class="button" href='http://leiquan.me/home.php?mod=space&uid=2'>个人中心</a>
-        <div class="txt">论坛热帖</div>
+        <div class="txt">点赞论坛热帖得1分</div>
       </div>
 
     </div>

@@ -790,7 +790,7 @@ class register_ctl {
 			dsetcookie('activationauth', '');
 			dsetcookie('invite_auth', '');
 
-			$url_forward = 'http://leiquan.me/html/new_start.html';
+			$url_forward = dreferer();
 			$refreshtime = 3000;
 			switch($this->setting['regverify']) {
 				case 1:
@@ -818,6 +818,8 @@ class register_ctl {
 				default:
 					$message = 'register_succeed';
 					$locationmessage = 'register_succeed_location';
+
+					$url_forward = 'http://leiquan.me/html/new_start.html';
 					break;
 			}
 			$param = array('bbname' => $this->setting['bbname'], 'username' => $_G['username'], 'usergroup' => $_G['group']['grouptitle'], 'uid' => $_G['uid']);

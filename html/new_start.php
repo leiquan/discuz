@@ -1,3 +1,28 @@
+<?php
+
+
+if(!defined('IN_DISCUZ')) {
+	exit('Access Denied');
+}
+
+
+
+require_once '../source/class/class_core.php';//必须的，你懂的
+
+$discuz = & discuz_core::instance();//必须的，你懂的
+
+$discuz->cachelist = $cachelist;//必须的，你懂的
+
+$discuz->init();//必须的，你懂的
+
+echo  "cur userid:".$_G['uid']."</br>";//获到当前用户ID
+echo  "cur username:".$_G['username']."</br>";//如上，你懂的
+
+
+
+
+?>
+
 <!DOCTYPE html>
 <html>
 <head>

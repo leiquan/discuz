@@ -819,7 +819,7 @@ class register_ctl {
 					$message = 'register_succeed';
 					$locationmessage = 'register_succeed_location';
 
-					$url_forward = 'http://leiquan.me/html/new_start.html';
+					$url_forward = 'http://leiquan.me/html/new_start.php';
 					break;
 			}
 			$param = array('bbname' => $this->setting['bbname'], 'username' => $_G['username'], 'usergroup' => $_G['group']['grouptitle'], 'uid' => $_G['uid']);

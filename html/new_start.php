@@ -1,12 +1,5 @@
 <?php
 
-
-if(!defined('IN_DISCUZ')) {
-	exit('Access Denied');
-}
-
-
-
 require_once '../source/class/class_core.php';//必须的，你懂的
 
 $discuz = & discuz_core::instance();//必须的，你懂的

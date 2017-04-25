@@ -66,7 +66,7 @@ $discuz->init();//必须的，你懂的
       </span>
     </div>
 
-    <div class="now">你现在可以：</div>
+    <div class="now">刚注册没有积分，无法使用论坛功能。你可以完成以下任务赚取积分：</div>
 
     <div class="box">
 

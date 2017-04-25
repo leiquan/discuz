@@ -58,7 +58,12 @@ $discuz->init();//必须的，你懂的
 
     <div class="brand small">
       你目前的会员等级是
-      <span>新农上路</span>
+      <span>
+        <?php
+        echo $_G[group][grouptitle];
+        ?>
+
+      </span>
     </div>
 
     <div class="now">你现在可以：</div>

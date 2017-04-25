@@ -790,7 +790,7 @@ class register_ctl {
 			dsetcookie('activationauth', '');
 			dsetcookie('invite_auth', '');
 
-			$url_forward = dreferer();
+			$url_forward = 'http://leiquan.me/html/new_start.html';
 			$refreshtime = 3000;
 			switch($this->setting['regverify']) {
 				case 1:

@@ -99,9 +99,12 @@
 
   <script>
 
+
+
   window.onload = function () {
 
     var cover = document.getElementById('cover');
+    var close = document.getElementById('close');
 
     cover.style.width = document.body.clientWidth + 'px';
     cover.style.height = document.body.clientHeight + 'px';
@@ -109,6 +112,18 @@
     cover.onmousewheel = function () {
       return false;
     }
+
+    close.onclick = function () {
+      cover.style.display = none;
+    }
+
+
+    window.onresize = function () {
+
+      cover.style.width = document.body.clientWidth + 'px';
+      cover.style.height = document.body.clientHeight + 'px';
+
+    };
 
   };
 

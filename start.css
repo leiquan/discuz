@@ -133,8 +133,13 @@
 
 #container  #cover #regular {
   width: 600px;
-  height: 400px;
+  height: 500px;
   margin: 0 auto;
+}
+
+#container  #cover #regular img{
+  width: 600px;
+  height: 400px;
 }
 
 .slick-prev::before {
@@ -147,7 +152,12 @@
 .slick-dots li button:before {
   content: '' !important;
 }
+
 .slick-dots li button {
   border-radius: 10px !important;
-  background-color: #000 !important;
+  background-color: rgba(0,0,0,0.5) !important;
+}
+
+.slick-dots li button:focus {
+    background-color: rgba(0,0,0,0.8) !important;
 }

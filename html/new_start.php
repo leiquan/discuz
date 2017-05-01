@@ -28,7 +28,7 @@ $discuz->init();//±ØÐëµÄ£¬Äã¶®µÄ
 
 <body>
 
-  {subtemplate common/header}
+  <!--{subtemplate common/header}-->
 
 
   <nav></nav>

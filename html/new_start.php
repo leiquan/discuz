@@ -1,4 +1,3 @@
-<!--{subtemplate common/header}-->
 <?php
 
 require_once '../source/class/class_core.php';//必须的，你懂的
@@ -28,6 +27,8 @@ $discuz->init();//必须的，你懂的
 </head>
 
 <body>
+
+  {subtemplate common/header}
 
 
   <nav></nav>

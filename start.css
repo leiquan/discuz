@@ -160,6 +160,7 @@
 
 .slick-dots li button:focus, .slick-active {
     background-color: rgba(0,0,0,0.8) !important;
+    border-radius: 10px !important;
 }
 
 .slick-dots {

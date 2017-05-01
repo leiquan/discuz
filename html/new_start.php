@@ -1,3 +1,4 @@
+<!--{subtemplate common/header}-->
 <?php
 
 require_once '../source/class/class_core.php';//±ØÐëµÄ£¬Äã¶®µÄ

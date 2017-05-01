@@ -19,7 +19,7 @@
 
 
     <div id="cover">
-      
+
     </div>
 
 
@@ -81,6 +81,19 @@
   </div>
 
   {subtemplate common/footer}
+
+  <script>
+  window.onload = function () {
+
+    var cover = doucment.getElementById('cover');
+
+    cover.style.width = window.screen.width;
+    cover.style.height = window.screen.height;
+
+
+
+  };
+  </script>
 
 </body>
 

@@ -145,9 +145,9 @@
 }
 
 .slick-dots li button:before {
-  content: '';
+  content: '' !important;
 }
 .slick-dots li button {
-  border-radius: 10px;
-  background-color: #000;
+  border-radius: 10px !important;
+  background-color: #000 !important;
 }

@@ -87,8 +87,8 @@
 
     var cover = document.getElementById('cover');
 
-    cover.style.width = window.screen.width;
-    cover.style.height = window.screen.height;
+    cover.style.width = document.body.clientWidth;
+    cover.style.height = document.body.clientHeight;
 
     cover.onmousewheel = function () {
       return false;

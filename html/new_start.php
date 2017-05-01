@@ -8,6 +8,8 @@ $discuz->cachelist = $cachelist;//必须的，你懂的
 
 $discuz->init();//必须的，你懂的
 
+<!--{template common/header}-->
+
 ?>
 
 
@@ -28,7 +30,6 @@ $discuz->init();//必须的，你懂的
 
 <body>
 
-  <!--{subtemplate common/header}-->
 
 
   <nav></nav>

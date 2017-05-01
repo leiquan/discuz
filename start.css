@@ -133,7 +133,7 @@
 
 #container  #cover #regular {
   width: 600px;
-  height: 500px;
+  height: 450px;
   margin: 0 auto;
 }
 
@@ -160,4 +160,9 @@
 
 .slick-dots li button:focus {
     background-color: rgba(0,0,0,0.8) !important;
+}
+
+.slick-dots {
+  height: 50px !important;
+  line-height: 50px !important;
 }

@@ -203,7 +203,7 @@
   left: -70px;
 }
 
-.slick-prev.slick-next {
+.slick-next.slick-arrow {
   background-image: url(static/image/common/pic-next.png);
   background-color: white;
   width: 64px;

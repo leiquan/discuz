@@ -187,3 +187,26 @@
   margin: 0 auto;
   margin-top: 200px;
 }
+.slick-prev.slick-arrow {
+  background-image: url(static/image/common/pic-prev.png);
+  background-color: white;
+  width: 64px;
+  height: 32px;
+  left: -70px;
+}
+
+.slick-prev.slick-arrow {
+  background-image: url(static/image/common/pic-prev.png);
+  background-color: white;
+  width: 64px;
+  height: 32px;
+  left: -70px;
+}
+
+.slick-prev.slick-next {
+  background-image: url(static/image/common/pic-next.png);
+  background-color: white;
+  width: 64px;
+  height: 32px;
+  right: -70px !important;
+}

@@ -25,6 +25,8 @@
 #container .brand.small{
   font-size: 14px;
   text-align: center;
+  width: 800px;
+  margin: 0 auto;
 }
 #container .brand.small span{
   font-size: 18px;
@@ -71,7 +73,7 @@
   display: block;
   text-decoration: none;
   margin: 0 auto;
-  margin-top: 45px;
+  margin-top: 20px;
 
 }
 

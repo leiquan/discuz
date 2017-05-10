@@ -130,7 +130,8 @@
   z-index: 100;
   left: 0;
   top: 0;
-  background-color: rgba(0,0,0, 0.5)
+  background-color: rgba(0,0,0, 0.5);
+  display: none;
 }
 
 #container  #cover #regular {
@@ -197,7 +198,7 @@
   left: -70px;
 }
 
-.slick-prev.slick-arrow {
+.slick-prev.slick-arrow, .slick-prev:hover {
   background-image: url(static/image/common/pic-prev.png);
   background-color: white;
   width: 64px;
@@ -205,7 +206,7 @@
   left: -70px;
 }
 
-.slick-next.slick-arrow {
+.slick-next.slick-arrow, .slick-next:hover {
   background-image: url(static/image/common/pic-next.png);
   background-color: white;
   width: 64px;

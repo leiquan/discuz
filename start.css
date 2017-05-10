@@ -147,6 +147,8 @@
 #container  #cover #regular img{
   width: 600px;
   height: 400px;
+  width: 200px;
+  width: 200px;
 }
 
 .slick-prev::before {

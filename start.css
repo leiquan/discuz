@@ -50,13 +50,14 @@
 
 #container .box .item{
   width: 300px;
-  height: 200px;
+  min-height: 200px;
   margin-left: 23px;
   margin-right: 23px;
   background-color: #ccc;
   float: left;
   margin-top: 25px;
   border-radius: 5px;
+  height: auto;
 }
 
 #container .box .item img{

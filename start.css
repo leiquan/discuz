@@ -41,16 +41,15 @@
 }
 
 #container .box {
-  width: 600px;
+  width: 700px;
   height: 400px;
   /*border: 1px solid red;*/
   float: left;
-  margin-left: 100px;
 }
 
 
 #container .box .item{
-  width: 250px;
+  width: 300px;
   height: 160px;
   margin-left: 23px;
   margin-right: 23px;
@@ -62,7 +61,7 @@
 }
 
 #container .box .item .button{
-  width: 160px;
+  width: 200px;
   height: 40px;
   background-color: rgb(125, 200, 98);
   border-radius: 5px;

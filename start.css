@@ -72,7 +72,7 @@
 #container .box .item .button{
   width: 100%;
   height: 40px;
-  background-color: rgb(125, 200, 98);
+  background-color: #497B89;
   border-radius: 5px;
   line-height: 40px;
   color: white;
@@ -82,9 +82,18 @@
   text-decoration: none;
   margin: 0 auto;
 }
+#container .box .item .txt {
+  background-color: rgb(125, 200, 98);
+  width: 250px;
+    border-radius: 4px;
+    margin: 0 auto;
+    margin-top: 10px;
+    height: 35px;
+    line-height: 35px;
+    color: white;
+}
 
 #container .box .item .txt{
-  line-height: 30px;
   font-size: 14px;
   text-align: center;
 }

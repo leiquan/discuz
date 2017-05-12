@@ -139,7 +139,7 @@
   border-top: 1px solid #ccc;
 }
 
-#container  #cover {
+#container #cover, #container .cover {
   position: fixed;
   width: 100%;
   height: 100%;

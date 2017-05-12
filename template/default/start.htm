@@ -35,6 +35,8 @@
           </div>
       </section>
 
+      <div id="dialog"></div>
+
     </div>
 
 
@@ -51,8 +53,8 @@
 
       <div class="item">
         <a class="button">验证邮箱、激活账号</a>
-        <div class="txt">为什么你的账号很宝贵</div>
-        <div class="txt">我没有收到验证邮件咋办？</div>
+        <div class="txt" id="baogui">为什么你的账号很宝贵</div>
+        <div class="txt" id="yanzhengyoujian">我没有收到验证邮件咋办？</div>
       </div>
 
       <div class="item">
@@ -123,6 +125,19 @@
       cover.style.height = document.body.clientHeight + 'px';
 
     };
+
+
+    var baogui = document.getElementById('baogui');
+    var yanzhengyoujian = document.getElementById('yanzhengyoujian');
+
+    baogui.onclick = function () {
+      cover.style.display = 'block';
+    };
+
+    yanzhengyoujian.onclick = function () {
+      cover.style.display = 'block';
+    };
+
 
   };
 

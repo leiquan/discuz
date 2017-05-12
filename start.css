@@ -229,3 +229,9 @@
   height: 32px;
   right: -70px !important;
 }
+
+#dialog {
+  width: 500px;
+  height: 300px;
+  margin: 0 auto;
+}

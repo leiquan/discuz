@@ -238,6 +238,7 @@
     border: 2px solid #497B89;
     font-size: 14px;
     line-height: 25px;
+    margin-top: 50px;
 }
 
 #dialog .head{
@@ -245,6 +246,8 @@
     height: 40px;
     background-color: #497B89;
     float: left;
+    line-height: 40px;
+    color: white;
 }
 
 #dialog .close{
@@ -252,6 +255,13 @@
     height: 40px;
     background-color: red;
     float: left;
+    margin-top: 10px;
+    margin-left: 10px;
+    width: 20px;
+    height: 20px;
+    float: left;
+    background-image: url(static/image/common/newclose.gif);
+    background-repeat: no-repeat;
 }
 
 #dialog .content{

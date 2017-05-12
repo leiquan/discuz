@@ -231,7 +231,31 @@
 }
 
 #dialog {
-  width: 500px;
-  height: 300px;
-  margin: 0 auto;
+    width: 600px;
+    height: 300px;
+    margin: 0 auto;
+    background-color: white;
+    border: 2px solid #497B89;
+    font-size: 14px;
+    line-height: 25px;
+}
+
+#dialog .head{
+    width: 560px;
+    height: 40px;
+    background-color: #497B89;
+    float: left;
+}
+
+#dialog .close{
+    width: 40px;
+    height: 40px;
+    background-color: red;
+    float: left;
+}
+
+#dialog .content{
+    width: 600px;
+    height: 260px;
+    float: left;
 }

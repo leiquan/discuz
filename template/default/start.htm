@@ -45,7 +45,7 @@
 
         <div class="close" id='close1'></div>
 
-        <div class="content">
+        <div class="content" id='incontent'>
           &nbsp;&nbsp;&nbsp;&nbsp;在别的网站，考完托福你就离开了，申请完了你也不会再去。但是在一亩三分地，拿到录取以后，你找实习要回来，找全职工作要回来，申请opt要回来，等h1b签证和绿卡要回来，甚至工作几年后要跳槽你也要回来看求职信息。
           <br><br>
           &nbsp;&nbsp;&nbsp;&nbsp;近期很多老ID发现无法登陆或者账号被封，原因是之前的密码太简单或者在其他网站用过被泄漏了，然后别人盗用用你的账号发垃圾广告。请珍重你的账号！密码太简单的同学请修改成一个复杂的、只在一亩三分地使用的密码。
@@ -147,14 +147,16 @@
     var close1 = document.getElementById('close1');
     var baogui = document.getElementById('baogui');
     var yanzhengyoujian = document.getElementById('yanzhengyoujian');
+    var incontent = document.getElementById('incontent');
 
     baogui.onclick = function () {
       cover2.style.display = 'block';
+      incontent.innerHtml = '&nbsp;&nbsp;&nbsp;&nbsp;在别的网站，考完托福你就离开了，申请完了你也不会再去。但是在一亩三分地，拿到录取以后，你找实习要回来，找全职工作要回来，申请opt要回来，等h1b签证和绿卡要回来，甚至工作几年后要跳槽你也要回来看求职信息。<br><br>&nbsp;&nbsp;&nbsp;&nbsp;近期很多老ID发现无法登陆或者账号被封，原因是之前的密码太简单或者在其他网站用过被泄漏了，然后别人盗用用你的账号发垃圾广告。请珍重你的账号！密码太简单的同学请修改成一个复杂的、只在一亩三分地使用的密码。';
     };
 
     yanzhengyoujian.onclick = function () {
       cover2.style.display = 'block';
-      cover2.innerHtml = '1. 请检查你信箱的垃圾邮件<br>2. 点<a href="http://www.1point3acres.com/bbs/home.php?mod=spacecp&ac=profile&op=password">这里</a>重发验证邮件 <br>3. 换个邮箱注册，比如163.com改成outlook';
+      incontent.innerHtml = '1. 请检查你信箱的垃圾邮件<br>2. 点<a href="http://www.1point3acres.com/bbs/home.php?mod=spacecp&ac=profile&op=password">这里</a>重发验证邮件 <br>3. 换个邮箱注册，比如163.com改成outlook';
     };
 
     close1.onclick = function () {

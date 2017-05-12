@@ -41,9 +41,9 @@
 
       <div id="dialog">
 
-        <div class="head">Warald想和你说</div>
-        
-        <div class="close"></div>
+        <div class="head">&nbsp;&nbsp;&nbsp;&nbsp;Warald想和你说</div>
+
+        <div class="close" id='close1'></div>
 
         <div class="content">
           &nbsp;&nbsp;&nbsp;&nbsp;在别的网站，考完托福你就离开了，申请完了你也不会再去。但是在一亩三分地，拿到录取以后，你找实习要回来，找全职工作要回来，申请opt要回来，等h1b签证和绿卡要回来，甚至工作几年后要跳槽你也要回来看求职信息。
@@ -144,6 +144,7 @@
 
 
     var cover2 = document.getElementById('cover2');
+    var close1 = document.getElementById('close1');
     var baogui = document.getElementById('baogui');
     var yanzhengyoujian = document.getElementById('yanzhengyoujian');
 
@@ -153,6 +154,10 @@
 
     yanzhengyoujian.onclick = function () {
       cover2.style.display = 'block';
+    };
+
+    close1.onclick = function () {
+      cover2.style.display = 'none';
     };
 
 

@@ -96,6 +96,7 @@
   font-size: 14px;
   text-align: center;
   display: block;
+  cursor: pointer;
 }
 
 
@@ -118,6 +119,10 @@
   color: #497B89;
   margin-left: 10px;
   line-height: 40px;
+}
+
+#container .box-left .head a{
+  color: #497B89;
 }
 
 #container .box-left .line{

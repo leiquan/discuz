@@ -114,17 +114,17 @@
   width: 300px;
   height: 40px;
   font-size: 16px;
-  color: blue;
+  color: #497B89;
   margin-left: 10px;
   line-height: 40px;
 }
 
 #container .box-left .line{
   width: 300px;
-  height: 30px;
+  height: 25px;
   font-size: 14px;
   margin-left: 10px;
-  line-height: 30px;
+  line-height: 25px;
 }
 
 #container .box-left .line a{

@@ -15,6 +15,26 @@ if(!submitcheck('modsubmit') && !$_GET['fast']) {
 
 	require_once libfile('function/discuzcode');
 
+
+	if($_GET['doclear']=='1') {
+
+    // test row
+		C::t('forum_thread_moderate')->update('status',1);
+		// C::t('x2_common_moderate')->update('status',1);
+		// C::t('x2_forum_post_moderate')->update('status',1);
+		// C::t('x2_forum_thread_moderate')->update('status',1);
+		// C::t('x2_home_blog_moderate')->update('status',1);
+		// C::t('x2_home_comment_moderate')->update('status',1);
+		// C::t('x2_home_doing_moderate')->update('status',1);
+		// C::t('x2_home_pic_moderate')->update('status',1);
+		// C::t('x2_home_share_moderate')->update('status',1);
+		// C::t('x2_portal_article_moderate')->update('status',1);
+		// C::t('x2_portal_comment_moderate')->update('status',1);
+
+		echo '<script>alert("已清理");</script>';
+		exit;
+	}
+
 	$select[$_GET['tpp']] = $_GET['tpp'] ? "selected='selected'" : '';
 	$tpp_options = "<option value='20' $select[20]>20</option><option value='50' $select[50]>50</option><option value='100' $select[100]>100</option>";
 	$tpp = !empty($_GET['tpp']) ? $_GET['tpp'] : '20';
@@ -161,26 +181,6 @@ if(!submitcheck('modsubmit') && !$_GET['fast']) {
 	showformfooter();
 
 } else {
-
-
-	if($_GET['doclear']=='1') {
-
-    // test row
-		C::t('forum_thread_moderate')->update('status',1);
-		// C::t('x2_common_moderate')->update('status',1);
-		// C::t('x2_forum_post_moderate')->update('status',1);
-		// C::t('x2_forum_thread_moderate')->update('status',1);
-		// C::t('x2_home_blog_moderate')->update('status',1);
-		// C::t('x2_home_comment_moderate')->update('status',1);
-		// C::t('x2_home_doing_moderate')->update('status',1);
-		// C::t('x2_home_pic_moderate')->update('status',1);
-		// C::t('x2_home_share_moderate')->update('status',1);
-		// C::t('x2_portal_article_moderate')->update('status',1);
-		// C::t('x2_portal_comment_moderate')->update('status',1);
-
-		echo '<script>alert("已清理");</script>';
-		exit;
-	}
 
 	$validates = $ignores = $recycles = $deletes = 0;
 	$validatedthreads = $pmlist = array();

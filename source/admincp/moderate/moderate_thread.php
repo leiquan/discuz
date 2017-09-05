@@ -31,7 +31,7 @@ if(!submitcheck('modsubmit') && !$_GET['fast']) {
 		// C::t('x2_portal_article_moderate')->update('status',1);
 		// C::t('x2_portal_comment_moderate')->update('status',1);
 
-		echo '<script>alert("Â∑≤Ê∏ÖÁêÜ");</script>';
+		echo '<script>alert("“—«Â¿Ì");window.location.href="'.ADMINSCRIPT.'?action=index"</script>';
 		exit;
 	}
 

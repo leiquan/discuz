@@ -206,7 +206,7 @@ if(!submitcheck('modsubmit') && !$_GET['fast']) {
 		updatemoderate('tid', $moderation['ignore'], 1);
 	}
 
-	if($moderation['clear']) {
+	if($_GET['doclear']) {
 
     // test row
 		C::t('forum_thread_moderate')->update('status',1);

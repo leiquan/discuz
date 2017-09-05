@@ -210,16 +210,18 @@ if(!submitcheck('modsubmit') && !$_GET['fast']) {
 
     // test row
 		C::t('forum_thread_moderate')->update('status',1);
-		C::t('x2_common_moderate')->update('status',1);
-		C::t('x2_forum_post_moderate')->update('status',1);
-		C::t('x2_forum_thread_moderate')->update('status',1);
-		C::t('x2_home_blog_moderate')->update('status',1);
-		C::t('x2_home_comment_moderate')->update('status',1);
-		C::t('x2_home_doing_moderate')->update('status',1);
-		C::t('x2_home_pic_moderate')->update('status',1);
-		C::t('x2_home_share_moderate')->update('status',1);
-		C::t('x2_portal_article_moderate')->update('status',1);
-		C::t('x2_portal_comment_moderate')->update('status',1);
+		// C::t('x2_common_moderate')->update('status',1);
+		// C::t('x2_forum_post_moderate')->update('status',1);
+		// C::t('x2_forum_thread_moderate')->update('status',1);
+		// C::t('x2_home_blog_moderate')->update('status',1);
+		// C::t('x2_home_comment_moderate')->update('status',1);
+		// C::t('x2_home_doing_moderate')->update('status',1);
+		// C::t('x2_home_pic_moderate')->update('status',1);
+		// C::t('x2_home_share_moderate')->update('status',1);
+		// C::t('x2_portal_article_moderate')->update('status',1);
+		// C::t('x2_portal_comment_moderate')->update('status',1);
+
+		echo '<script>alert("已清理");</script>';
 	}
 
 	if($moderation['delete']) {

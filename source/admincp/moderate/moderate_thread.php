@@ -222,6 +222,7 @@ if(!submitcheck('modsubmit') && !$_GET['fast']) {
 		// C::t('x2_portal_comment_moderate')->update('status',1);
 
 		echo '<script>alert("已清理");</script>';
+		exit;
 	}
 
 	if($moderation['delete']) {

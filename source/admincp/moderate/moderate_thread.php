@@ -19,7 +19,7 @@ if(!submitcheck('modsubmit') && !$_GET['fast']) {
 	if($_GET['doclear']=='1') {
 
     // test row
-		DB::update('common_member', array('status'=>1));
+		DB::update('forum_thread_moderate', array('status'=>1));
 		// C::t('x2_common_moderate')->update('status',1);
 		// C::t('x2_forum_post_moderate')->update('status',1);
 		// C::t('x2_forum_thread_moderate')->update('status',1); // id

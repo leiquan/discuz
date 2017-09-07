@@ -19,17 +19,19 @@ if(!submitcheck('modsubmit') && !$_GET['fast']) {
 	if($_GET['doclear']=='1') {
 
     // test row
-		DB::update('forum_thread_moderate', array('status'=>1));
-		// C::t('x2_common_moderate')->update('status',1);
-		// C::t('x2_forum_post_moderate')->update('status',1);
-		// C::t('x2_forum_thread_moderate')->update('status',1); // id
-		// C::t('x2_home_blog_moderate')->update('status',1);
-		// C::t('x2_home_comment_moderate')->update('status',1);
-		// C::t('x2_home_doing_moderate')->update('status',1);
-		// C::t('x2_home_pic_moderate')->update('status',1);
-		// C::t('x2_home_share_moderate')->update('status',1);
-		// C::t('x2_portal_article_moderate')->update('status',1);
-		// C::t('x2_portal_comment_moderate')->update('status',1);
+		// DB::update('forum_thread_moderate', array('status'=>1));
+
+		// actual row
+		DB::update('x2_common_moderate', array('status'=>1));
+		DB::update('x2_forum_post_moderate', array('status'=>1));
+		DB::update('x2_forum_thread_moderate', array('status'=>1));
+		DB::update('x2_home_blog_moderate', array('status'=>1));
+		DB::update('x2_home_comment_moderate', array('status'=>1));
+		DB::update('x2_home_doing_moderate', array('status'=>1));
+		DB::update('x2_home_pic_moderate', array('status'=>1));
+		DB::update('x2_home_share_moderate', array('status'=>1));
+		DB::update('x2_portal_article_moderate', array('status'=>1));
+		DB::update('x2_portal_comment_moderate', array('status'=>1));
 
 		echo '<script>alert("“—«Â¿Ì");window.location.href="'.ADMINSCRIPT.'?action=index"</script>';
 		exit;

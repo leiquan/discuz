@@ -116,7 +116,7 @@ if(!submitcheck('modsubmit') && !$_GET['fast']) {
 		$threadsortinfo = '';
 		$thread['useip'] = $thread['useip'] . '-' . convertip($thread['useip']);
 		if($thread['authorid'] && $thread['author']) {
-			$thread['author'] = "<a href=\"?action=members&operation=search&uid=$thread[authorid]&submit=yes\" target=\"_blank\">$thread[author]</a> <a href=\"admin.php?action=members&operation=ban&uid=$thread['authorid']\">禁止用户</a>";
+			$thread['author'] = "<a href=\"?action=members&operation=search&uid=$thread[authorid]&submit=yes\" target=\"_blank\">$thread[author]</a> <a href=\"?action=members&operation=ban&uid=$thread['authorid']\">禁止用户</a>";
 		} elseif($thread['authorid'] && !$thread['author']) {
 			$thread['author'] = "<a href=\"?action=members&operation=search&uid=$thread[authorid]&submit=yes\" target=\"_blank\">$lang[anonymous]</a>";
 		} else {
